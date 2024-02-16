@@ -1,0 +1,329 @@
+.row{
+    display: flex;
+    
+    background-color:rgb(248, 151, 15);
+}
+.col2{
+    font-family:cursive  ;
+    font-size: x-large;
+    text-shadow: 5px 5px 5px  brown;
+    /* margin-left: 500px; */
+}
+.col1{
+    margin-left: 100px;
+}
+h4{
+    background-color:rgb(248, 147, 6);
+    position: sticky;
+    margin: 0px;
+    padding: 0px;
+}
+.row2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 150px;
+    padding: 30px;
+    font-size: xx-large;
+    background-color :#dc993c;
+}
+.box{
+    padding: 40px;
+    height: 150px;
+    width: 700px;
+    margin: 30px;
+    text-align: justify;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: large;
+    background-color: #dc993c;
+}
+.boxcontent{
+    display: flex;
+    justify-content: center;
+    background-color: #dc993c;
+    
+}
+.types{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    background-color: #dc993c;
+    margin: 0px;
+    padding: 0px;
+    }
+h3{
+    font-family: Shadows Into Light Two;
+    text-align: center;
+    font-size: 60px;
+    margin: 0px;
+    padding: 0px;
+    text-shadow: 4px 5px rgb(65, 41, 29);
+
+}
+h3 ul li {
+    padding: 10px;
+    margin: 10px;
+}
+.types p{
+    padding: 10px;
+    margin: 10px;    
+}
+.topbrands{
+    margin: 0px;
+    padding: 0px;
+    display:flex;
+    margin: 0px;
+    background-color: #dc993c;
+
+
+}
+p{
+    text-align: justify;
+}
+.col{
+   
+    margin: 20px;
+}
+.col img{
+    box-shadow: 3px 7px;
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
+    transition: transform .2s;
+    background-color: #dc993c;
+}
+.brands h3{
+    margin: 0px;
+    padding: 0px;
+    background-color: #dc993c;
+}
+.gallery {
+    background-color: rgb(220, 153, 60);
+    border-radius: 10px;
+    padding-bottom: 50px;
+    box-shadow: 3px 2px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.gallery{
+    background-color: rgb(220, 153, 60);
+    margin: 80px;
+    border-radius: 10px;
+    box-shadow: black 0px 4px 10px, black 0px 6px 10px, black 0px 10px 26px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    flex-direction: row;
+}
+.col img{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 25px;
+    transition: transform 0.5s ease-in-out;
+}
+.col img:hover {
+    transform: scale(0.9);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.form{
+    background-color:  rgb(220, 153, 60);
+    border: 3px solid black;
+    margin: 30px 200px;
+    width: 800px;
+    margin-left: 20%;
+    padding: 40px 60px;
+}
+button{
+    margin: 20px;
+    padding: 10px;
+    background-color: brown;
+    color: white;
+}
+.rfoot{
+    display: flex;
+    background-color: rgb(220, 153, 60);
+}
+.rcol img{
+    height: 150px;
+    margin-left: 100px;
+}
+.rcol h2{
+    margin-left: 200px;
+}
+.rcol ul{
+    display: flex;
+    margin-left: 200px;
+}
+.rcol ul li{
+    list-style: none;
+    padding: 10px;
+}
+.rcol p{
+    margin-left: 250px;
+    font-size: 19px;
+}
+.rcol h3{
+    margin-top: 10px;
+    margin-left: 230px;
+}
+.query h2{
+    background-color: #dc993c;
+}
+
+@media screen and (max-width: 400px) {
+    /* CSS rules specific to screens with a maximum width of 400px */
+    .body{
+        width: 400px;
+        
+    }
+    .row {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .col img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .form {
+        margin: 30px 0;
+        width: 100%;
+    }
+
+    .rcol img {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .rcol h2,
+    .rcol p,
+    .rcol h3 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .rcol ul {
+        justify-content: center;
+        margin-left: 0;
+    }
+    .topbrands{
+        width: 400px;
+        margin: 0px;
+        padding: 0px;
+        display:flex;
+        margin: 0px;
+        background-color: #dc993c;
+    
+    
+    }
+    .types {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .types h3 {
+        font-size: 20px; /* Decrease heading size for smaller screens */
+        text-align: center; /* Center align the heading */
+    }
+
+    .types p {
+        font-size: 14px; /* Decrease paragraph font size for smaller screens */
+    }
+
+    .types ul {
+        padding-left: 20px; /* Add left padding to the list for smaller screens */
+    }
+
+    .types ul li {
+        margin-bottom: 10px; /* Add margin bottom to list items for smaller screens */
+    }
+    .row2 {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .row2 h2 {
+        font-size: 18px; /* Decrease heading size for smaller screens */
+        text-align: center; /* Center align the heading */
+    }
+
+    .box {
+        width: 90%; /* Adjust box width for smaller screens */
+        margin: 0 auto; /* Center the box horizontally */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .box p {
+        font-size: 14px; /* Decrease paragraph font size for smaller screens */
+    }
+    .row {
+        flex-direction: column; /* Stack columns vertically on smaller screens */
+        align-items: center; /* Center align items horizontally */
+    }
+
+    .col1 {
+        margin-bottom: 10px; /* Add space between columns on smaller screens */
+    }
+
+    .col2 {
+        text-align: center; /* Center align text in col2 on smaller screens */
+    }
+
+    .row2 h2 {
+        font-size: 18px; /* Decrease heading size for smaller screens */
+        text-align: center; /* Center align the heading */
+    }
+     .row {
+                display: block; /* Display columns as blocks on smaller screens */
+                margin: 0 auto; /* Center align the gallery */
+            }
+
+            .col {
+                width: 100%; /* Set column width to 100% to occupy full width */
+                margin-bottom: 20px; /* Add space between columns */
+            }
+
+            .col img {
+                width: 100%; /* Set image width to 100% to occupy full width of column */
+                height: auto; /* Maintain aspect ratio */
+            }
+            .form {
+                width: 90%; /* Adjust form width for smaller screens */
+            }
+
+            .form table {
+                width: 100%; /* Ensure table occupies full width */
+            }
+
+            .form table td {
+                width: 100%; /* Ensure table cells occupy full width */
+            }
+
+            /* Center-align form elements */
+            .form input[type="text"],
+            .form input[type="email"],
+            .form textarea {
+                width: 100%;
+            }
+
+            /* Reduce button width */
+            .form button {
+                width: 50%;
+            }
+            .rfoot {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .rcol {
+                margin-bottom: 20px;
+                text-align: center;
+            }
+            p{
+                text-align: justify;
+            }
+}
+
